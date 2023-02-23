@@ -2210,21 +2210,20 @@ font-size: 17px;}
 	top: inherit;
 	bottom: 10px;
 }
-.mapouter {
-	margin-bottom: 50px;
-	max-width: 100%;
-	position: center;
-	height: 100;
-	width: 100%;
+.google-map {
+     padding-bottom: 40%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 margin-bottom: 1.5%;
+     position: relative;
 }
 
-.gmap_canvas {
-	margin: auto;
-	float: center;
-	overflow: hidden;
-	background: none !important;
-	height: 300px;
-	width: 510px;
+.google-map iframe {
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
 }
 .owner{
 	width: 900px;
